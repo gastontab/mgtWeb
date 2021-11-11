@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaston Taborda</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="brand">
+                    <h2>G <span>T</span></h2>
+                </div>
+                <ul class="menu">
+                    <li><a class="active" href="#">Home</a></li>
+                    <!--<li><a href="#1">About Me</a></li>-->
+                    <li><a href="#1">Portfolio</a></li>
+                    <li><a href="#2">Contact</a></li>
+                </ul>
+            </nav>
+            <nav class="responsive-navbar">
+                <div class="brand-responsive">
+                    <h4>G <span>T</span></h4>
+                </div>
+                <div class="responsive-icon">
+                    <i class="responsive-button fas fa-bars"></i>
+                </div>
+            </nav>
+            <div class="resposive-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="menu-option" href="#1">Portfolio</a></li>
+                    <li><a class="menu-option" href="#2">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+        <main class="main">
+            <div class="responsive-image"></div>
+            <div class="info-content">
+                <h1><span>Gaston </span>Taborda</h1>
+                <h4 class="profesion">DEVELOPER</h4>
+                <div class="social-network">
+                    <a href="https://github.com/gastontab" target="_BLANK">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gaston-taborda/" target="_BLANK">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+                <a download href="cv-Gaston-Taborda.pdf" target="_BLANK">
+                    <button class="download-cv">Download CV</button>
+                </a>
+            </div>
+            <img src="pexels-photo-1516680-removebg-preview.png" alt="gaston taborda picture">
+        </main>
+    </div>
+    <!--<div class="about" id="1">
+        <img src="about21.png" alt="about gaston taborda">
+        <div class="about-info">
+            <h2>About Me</h2>
+            <div class="divider"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, laudantium repudiandae. Voluptatem sed quia quasi placeat autem quidem repudiandae dolore laboriosam, illum minima assumenda molestiae, voluptate qui tempora soluta dicta.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, perferendis cum tenetur facilis laborum fuga saepe eos? Ullam, deserunt, numquam quis et nulla commodi magnam ab est debitis doloribus nesciunt.</p>
+        </div>
+    </div>-->
+    <div class="portfolio" id="1">
+        <div class="portfolio-headings">
+            <h2>My Portfolio</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="card_img"></div>
+                <div class="card_title">
+                    <h2>Analog clock</h2>
+                </div>
+                <div class="card_projects-links">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js-square"></i>
+                </div>
+                <div class="project-details-content">
+                        <a href="https://github.com/gastontab/proyectos-JS/tree/master/relojJS" target="_BLANK">
+                            <button class="project-details download-cv">Source code</button>
+                        </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card_img"></div>
+                <div class="card_title">
+                    <h2>Image editor</h2>
+                </div>
+                <div class="card_projects-links">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js-square"></i>
+                </div>
+                <div class="project-details-content">
+                    <a href="https://github.com/gastontab/proyectos-JS/tree/master/editorIMG" target="_BLANK">
+                        <button class="project-details download-cv">Source code</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card_img"></div>
+                <div class="card_title">
+                    <h2>Keyboard</h2>
+                </div>
+                <div class="card_projects-links">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js-square"></i>
+                </div>
+                <div class="project-details-content">
+                    <a href="https://github.com/gastontab/proyectos-JS/tree/master/pianoJS" target="_BLANK">
+                        <button class="project-details download-cv">Source code</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact-section" id="2">
+        <div class="contact-headings">
+            <h2>Keep in touch</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="container-contact">
+            <img src="img-opacity50.png">
+            <div class="contact-form">
+                <h4>Send me a message...</h4>
+                <form class="form" action="enviar.php" method="post">
+                    <input type="text" placeholder="Name" name="name" required>
+                    <input type="email" placeholder="Email" name="email" required>
+                    <textarea placeholder="Place your message here" name="message" required></textarea>
+                    <!--<input type="submit" value="Send message" class="btn-submit">-->
+                    <button type="submit" class="btn-submit">
+                        Send message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-divider"></div>
+        <div class="footer-content">
+            <p>© Gaston Taborda 2021</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
