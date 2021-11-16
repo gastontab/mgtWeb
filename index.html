@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
 <body>
+    <div id="status"></div>
     <div class="wrapper">
         <header>
             <nav class="navbar">
@@ -55,7 +56,7 @@
                     <button class="download-cv">Download CV</button>
                 </a>
             </div>
-            <img src="pexels-photo-1516680-removebg-preview.png" alt="gaston taborda picture">
+            <img src="gt-image.png" alt="gaston taborda picture">
         </main>
     </div>
     <!--<div class="about" id="1">
@@ -74,7 +75,7 @@
         </div>
         <div class="container">
             <div class="card">
-                <div class="card_img"></div>
+                <div class="card_img" id="card_img-1"></div>
                 <div class="card_title">
                     <h2>Analog clock</h2>
                 </div>
@@ -90,7 +91,7 @@
                 </div>
             </div>
             <div class="card">
-                <div class="card_img"></div>
+                <div class="card_img" id="card_img-2"></div>
                 <div class="card_title">
                     <h2>Image editor</h2>
                 </div>
@@ -106,7 +107,7 @@
                 </div>
             </div>
             <div class="card">
-                <div class="card_img"></div>
+                <div class="card_img" id="card_img-3"></div>
                 <div class="card_title">
                     <h2>Keyboard</h2>
                 </div>
@@ -129,10 +130,10 @@
             <div class="divider"></div>
         </div>
         <div class="container-contact">
-            <img src="img-opacity50.png">
+            <img src="gt-image-opacity.png">
             <div class="contact-form">
                 <h4>Send me a message...</h4>
-                <form class="form" action="enviar.php" method="post">
+                <form class="form" id="my-form" action="https://usebasin.com/f/9fa3e82bafaf" method="POST">
                     <input type="text" placeholder="Name" name="name" required>
                     <input type="email" placeholder="Email" name="email" required>
                     <textarea placeholder="Place your message here" name="message" required></textarea>
@@ -151,5 +152,6 @@
         </div>
     </footer>
     <script src="script.js"></script>
+    <script src="form.js"></script>
 </body>
 </html>
