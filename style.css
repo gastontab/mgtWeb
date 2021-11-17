@@ -221,8 +221,10 @@ h1{
     background-position-x: center;
 }
 #card_img-2{
-    background-image: url("editor-img.png");
+    background-image: url("ventaYa.png");
     background-position-x: center;
+    background-size:contain;
+    background-color: #084265;
 }
 #card_img-3{
     background-image: url("piano.png");
